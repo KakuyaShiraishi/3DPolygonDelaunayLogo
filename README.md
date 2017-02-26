@@ -20,7 +20,7 @@ I used the shader to write this program.
 		vColor = customColor;
 		vec3 newPosition = position + normal * amplitude * displacement;
 		gl_Position = projectionMatrix * modelViewMatrix * vec4( newPosition, 1.0 );
-			}
+		}
 ```  
 ・FragmentShader  
 
@@ -34,7 +34,7 @@ I used the shader to write this program.
 		light = normalize( light );
 		float directional = max( dot( vNormal, light ), 0.0 );
 		gl_FragColor = vec4( ( directional + ambient ) * vColor, 1.0 );
-			}
+		}
 ```
 
 
