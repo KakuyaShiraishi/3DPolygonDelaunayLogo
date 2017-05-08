@@ -2,7 +2,7 @@
 3D polygon was created by Delaunay triangulation.  
 link [Click Here](https://shiraishikakuya.github.io/3DPolygonDelaunayLogo/)
 
--
+---
 I used the shader to write this program.  
 ・VertexShader  
 
@@ -38,7 +38,7 @@ I used the shader to write this program.
 ```
 
 
--
+---
 __3D Polygon__
 ![](https://raw.githubusercontent.com/ShiraishiKakuya/3DPolygonDelaunayLogo/master/img/01.png)
 
